@@ -1,12 +1,12 @@
 # radiation-memory-tester
-This repository contains a test system for validating the integrity of the MR25H128A memory under radiation using the nRF52832 board and Zephyr RTOS. The system writes predefined data patterns to the MR25H128A memory, reads back the data, and compares it to detect radiation-induced bit flips or errors. This project is specifically designed for environments where memory stability is crucial under adverse conditions such as radiation.
+This repository contains a test system for validating the integrity of the MR25H128A memory under radiation using the nRF52832 board and Zephyr RTOS. The system writes predefined data patterns to the IS25LP128 memory, reads back the data, and compares it to detect radiation-induced bit flips or errors. This project is specifically designed for environments where memory stability is crucial under adverse conditions such as radiation.
 
 ## Project Overview
 
 The main objective of this project is to assess the robustness and reliability of the MR25H128A memory when exposed to radiation. The system executes a series of read/write tests using various data patterns to identify any inconsistencies, ensuring the memory performs accurately and without corruption.
 
 ### Key Features
-- **Memory Used**: MR25H128A (128 Kbit Non-Volatile Ferroelectric RAM)
+- **Memory Used**: IS25LP128 (128 Mbit Serial Flash Memory)
 - **Board**: nRF52832 Development Kit
 - **RTOS**: Zephyr RTOS
 - **Test Patterns**: Checkerboard, Walking Ones/Zeroes, March Test, Random Data
@@ -16,7 +16,7 @@ The main objective of this project is to assess the robustness and reliability o
 
 ### Hardware
 - nRF52832 Development Kit
-- MR25H128A Memory Module
+- IS25LP128 Memory Module
 - Debugger (e.g., J-Link) for programming and debugging
 
 ### Software
