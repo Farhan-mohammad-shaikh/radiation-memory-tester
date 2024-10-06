@@ -9,6 +9,7 @@ The main objective of this project is to assess the robustness and reliability o
 - **Memory Used**: IS25LP128 (128 Mbit Serial Flash Memory)
 - **Board**: nRF52832 Development Kit
 - **RTOS**: Zephyr RTOS
+- **Connection Details**: Specified connection to the memory module through the SPI interface
 - **Test Patterns**: Checkerboard, Walking Ones/Zeroes, March Test, Random Data
 - **Error Detection**: Compares the read data with the expected pattern to identify bit flips or memory corruption
 
